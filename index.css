@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:hsl(212,45%,89%);
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+
+}
+
+.container {
+    background: hsl(0,0%,100%);
+    width: 250px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+img{
+    width:20px;
+    height: 20px;
+    border: radius 20px;
+}
+
+h3{
+    display: flex-shrink;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}
